@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAE,CAAC,AAAA,QAAQ,CAAE,CAAC,AAAA,OAAO,AAAC,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACtB,AAED,AAAA,IAAI,CAAE,IAAI,AAAC,CACV,MAAM,CAAE,IAAI,CACZ",
+    "sources": [
+        "../scss/nullStyle.scss"
+    ],
+    "names": [],
+    "file": "nullStyle.min.css"
+}

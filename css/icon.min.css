@@ -1,0 +1,41 @@
+.icon{
+    height: 215px;
+    width: 215px;
+    overflow: hidden;
+    position: absolute;
+    border: 10px solid #f04200;
+    border-radius: 50%
+}
+.icon-subsection{
+    width: 150px;
+    height: 290px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-15deg);
+    transform: translate(-50%, -50%) rotate(-15deg)
+}
+.icon-subsection:before{
+    content: '';
+    height: 150px;
+    width: 150px;
+    left: 0px;
+    position: absolute;
+    border: 10px solid #f04200;
+    border-radius: 50%;
+    top: 0px;
+}
+.icon-subsection:after{
+    content: '';
+    height: 150px;
+    width: 150px;
+    left: 0px;
+    position: absolute;
+    border: 10px solid #f04200;
+    border-radius: 50%;
+    bottom: 0px;
+}
+.icon-subsection:last-child{
+    -webkit-transform:translate(-50%, -50%) rotate(75deg);
+    transform:translate(-50%, -50%) rotate(75deg)
+}
